@@ -28,7 +28,7 @@ Figure below shows the structure of the model.
 ![alt text](https://github.com/paan234/AI05-repo-2/blob/master/Image/Model.png)
 
 The model is trained with a batch size of 64 and for 100 epochs. Early stopping is applied in this training. 
-The training stops at epoch 21, with a training MAE of 333 and validation MAE of 333. The two figures below show the graph of the training process,
+The training stops at epoch 21, with a training MAE of 636 and validation MAE of 372. The two figures below show the graph of the training process,
 indicating the convergence of model training.
 
 ![alt text](https://github.com/paan234/AI05-repo-2/blob/master/Image/loss_graph.png)
