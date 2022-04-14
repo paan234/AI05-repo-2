@@ -25,24 +25,24 @@ Then the data is split into train-validation-test sets, with a ratio of 60:20:20
 A feedforward neural network is constructed that is catered for classification problem. The structure of the mofel is fairy simple. 
 Figure below shows the structure of the model.
 
-![alt text](https://github.com/paan234/ai05-test-repo/blob/master/Image/model.png)
+![alt text](https://github.com/paan234/AI05-repo-2/blob/master/Image/Model.png)
 
 The model is trained with a batch size of 64 and for 100 epochs. Early stopping is applied in this training. 
-The training stops at epoch 20, with a training MAE of 333 and validation MAE of 333. The two figures below show the graph of the training process,
+The training stops at epoch 21, with a training MAE of 333 and validation MAE of 333. The two figures below show the graph of the training process,
 indicating the convergence of model training.
 
-![alt text](https://github.com/paan234/ai05-test-repo/blob/master/Image/Loss_graph.png)
+![alt text](https://github.com/paan234/AI05-repo-2/blob/master/Image/loss_graph.png)
 
-![alt text](https://github.com/paan234/ai05-test-repo/blob/master/Image/Accuracy_graph.png)
+![alt text](https://github.com/paan234/AI05-repo-2/blob/master/Image/mae_graph.png)
 
 ## 4. Results
 Upon evaluating the model with test data, the model obtain the following test results, as shown in figure below.
 
-![alt text](https://github.com/paan234/ai05-test-repo/blob/master/Image/Test_result.jpg)
+![alt text](https://github.com/paan234/AI05-repo-2/blob/master/Image/Test_result.jpg)
 
 The model is also used to made prediction with test data. A graph of prediction vs label is plotted, as shown in the image below.
 
-![alt text](https://github.com/paan234/ai05-test-repo/blob/master/Image/Test_result.jpg)
+![alt text](https://github.com/paan234/AI05-repo-2/blob/master/Image/Result.png)
 
 Based on the graph, a clear trendline of y=x can be seen, indicating the predictions are fairly similar as labels.
 However, several outlier can be seen in the graph.
