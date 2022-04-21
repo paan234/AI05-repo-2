@@ -8,6 +8,7 @@ The goal of this project is to predict the price of diamond, based on the follow
 - Table
 
 The model is trained with dataset from [Diamonds](https://www.kaggle.com/datasets/shivam2503/diamonds).
+This classic dataset contains the prices and ohter atributes of almost 54,000 diamonds. It's a great dataset for beginners learning to work with data analysis and visualization.
 
 ## 2. IDE and Framework
 This project is created using Spyder as the main IDE. The main frameworks used in this project are:
